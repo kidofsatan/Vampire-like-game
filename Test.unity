@@ -2870,12 +2870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 50
   CurrentHealth: 0
-  Dashing: 1
   slider: {fileID: 1989186351}
   SliderOffset: {x: 0, y: -0.9, z: 0}
   IsDead: 0
-  flashMaterial: {fileID: 2100000, guid: 4955b5625ec49c44489c311b6d6f965d, type: 2}
-  duration: 0.1
 --- !u!114 &597041633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2890,10 +2887,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movmentSpeed: 5
   animator: {fileID: 0}
-  dashSpeed: 0
-  dashForce: 35
-  cooltime: 1
-  Dashing: 0
 --- !u!212 &597041634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6289,7 +6282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time:'
+  m_text: "\u0412\u0440\u0435\u043C\u044F:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6910,7 +6903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Over
+  m_text: "\u0418\u0433\u0440\u0430 \u043E\u043A\u043E\u043D\u0447\u0435\u043D\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13334,7 +13327,6 @@ MonoBehaviour:
   UpgradeObject: {fileID: 1162941988}
   GenerateUpgrade: 0
   TurretObject: {fileID: 1725842589}
-  OrbsObject: {fileID: 34478444}
   PlayerObject: {fileID: 597041625}
   PetObject: {fileID: 792867510129761264, guid: f8a2992b1bd74ce4da6240c91719f617, type: 3}
   RandomExplosionsObject: {fileID: 109949668}
@@ -15150,7 +15142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Kills:'
+  m_text: "\u0423\u0431\u0438\u0442\u043E:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
